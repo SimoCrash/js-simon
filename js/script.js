@@ -1,9 +1,13 @@
 let arrNumRandom;
 const bella = "ciao"
 
-
+function generateNumber (numeroGenerato) {
+    
+}
 for(let i = 1; i <= 5; i++) {
-    arrNumRandom += getRandomInteger(0, 100);
+    arrNumRandom = getRandomInteger(0, 100);
+    arrNumRandom[i];
+   
     // const arrNumDobble = [arrNumRandom];
     // if (arrNumRandom !== arrNumDobble[arrNumRandom]) {
     //     //arrNumRandom.push(arrNumDobble);
@@ -12,7 +16,9 @@ for(let i = 1; i <= 5; i++) {
     //     console.log("none")
     // }
 }
-console.log(arrNumRandom);
+
+
+
 
 console.log(arrNumDobble);
 
